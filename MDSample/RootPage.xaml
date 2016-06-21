@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   Title="Root page"
+             x:Class="MDSample.RootPage">
+  <MasterDetailPage.Master>
+    <ContentPage Title="Master" BackgroundColor="#cccccc"  Padding="0,0,0,0"   Icon="sanduiche.png">
+      <StackLayout Padding="0,0,0,0"  >
+        <Label Text="Item menu 1" TextColor="Black"/>
+        <Label Text="Item menu 2" TextColor="Black"/>
+        <Label Text="Item menu 3" TextColor="Black"/>
+      </StackLayout>
+
+    </ContentPage>
+  </MasterDetailPage.Master>
+  <MasterDetailPage.Detail>
+  </MasterDetailPage.Detail>
+</MasterDetailPage >
